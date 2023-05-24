@@ -29,10 +29,6 @@ app.get('/',(req,res)=>{
         res.render("base",{title:"Login System"});
 });
 
-app.post('/login',(req,res)=>{
-    console.log(req.body);
-})
-
 
 
 app.listen(port,()=>{console.log("Server is running on port http://localhost:4000")});
